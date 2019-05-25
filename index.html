@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Code Review 2</title>
+	<link rel="stylesheet" href="style\style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="header_logos">
+			<span>
+				<img src="img\logo.png" alt="Insurance CF Logo">
+			</span>
+			<span class="hidemob">
+				<a href="https://www.codefactory.wien" target="_blank">
+					<img src="img\banner.png" alt="FSWD course Vienna">
+				</a>
+			</span>
+		</div>
+		<nav>
+			<ul>
+				<li id="navli">
+					<a href="index.html">Home</a>
+				</li>
+				<li id="navli">
+					<a href="HTML/team.html" target="_blank">Team</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="maintop">
+			<h1>Car Insurance</h1>
+			<div id="calcholder">
+				<h2>Great coverage begins with a custom quote</h2>
+				<form id="calcdisplay">
+					<div>
+						Your Name:<br>
+						<input id="name" type="text">
+					</div>
+					<div>
+						Age:<br>
+						<input id="age" type="number">
+					</div>
+					<div>
+						Country:<br>
+						<select id="country">
+							<option value="Austria">Austria</option>
+							<option value="Hungary">Hungary</option>
+							<option value="Greece">Greece</option>
+						</select>
+					</div>
+					<div>
+						Horsepower of your Car:<br>
+						<input id="horsepower" type="number">
+					</div>
+					<button type="button" ID="button">Calculate</button>
+				</form>
+				<p id="quoteResult"></p>
+			</div>
+			<div id="blurb">
+				<p><b>Un-complicating car coverage</b><br>Understanding your coverage options should't be so hard. We'll guide you through available coverage types, starting with who and what is covered.</p>
+			</div>
+		</div>
+		<div id="mainbot">
+			<div>
+				<p class="mainboth">What comes standard</p>
+				<p>The converage you need</p>
+				<ul>
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>
+				</ul>
+				<h3>Benefits</h3>
+				<p>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>
+			</div>
+			<div>
+				<p class="mainboth">Add-on protection & coverage</p>
+				<p>For more peace of mind</p>
+				<ul>
+					<li>Better Car Replacement</li>
+					<li>Towing & Labour</li>
+					<li>Rental Car Coverage</li>
+				</ul>
+				<h3>Earned Benefits</h3>
+				<p>Accident Forgiveness | New Car Replacement</p>
+			</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<ul>
+			<li id="navli">
+				<a href="index.html">Home</a>
+			</li>
+			<li  id="navli">
+				<a href="HTML/team.html" target="_blank">Team</a>
+			</li>
+		</ul>
+		<img src="img\logo-inv.png" alt="Insurance CF Logo">
+		<p>Amber Cameron - Code Factory 2019</p>
+	</footer>
+	<script src="script/script.js"></script>	
+</body>
+</html>

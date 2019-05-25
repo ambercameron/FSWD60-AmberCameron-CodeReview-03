@@ -1,0 +1,194 @@
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  background-color: #FFF3F3;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+
+#header_logos {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+nav {
+  background-color: #8E1616;
+  list-style: none; }
+
+nav ul {
+  margin-bottom: 0px; }
+
+#navli {
+  display: inline;
+  padding: 0px 10px; }
+
+#navli a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px; }
+
+#maintop {
+  background-image: url("../img/traffic-332857_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 475px;
+  background-color: #CECECE;
+  padding: 10px;
+  min-height: 600px; }
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  margin: 2% 25%; }
+
+#calcholder {
+  background-color: #CFCFCFB3;
+  border: 2px #767676 solid;
+  color: #2C2C2C;
+  width: 80%;
+  min-height: 400px;
+  margin-left: 10%; }
+
+#calcdisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#calcdisplay div {
+  margin: 2% 5%;
+  width: 40%; }
+
+input {
+  width: 100%; }
+
+select {
+  width: 100%; }
+
+button {
+  background-color: #339235;
+  color: #F1F6F1;
+  border: none;
+  padding: 5px 35px;
+  border-radius: 8px; }
+
+#quoteResult {
+  text-align: center;
+  color: #339235;
+  font-weight: bold;
+  font-size: 3em; }
+
+#blurb {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+  color: #393939; }
+
+#mainbot {
+  display: flex;
+  justify-content: space-between;
+  color: #84816F; }
+
+#mainbot div {
+  border: 1px black solid;
+  margin: 5%;
+  padding: 0% 5%;
+  width: 45%;
+  box-shadow: 5px 5px 5px; }
+
+li {
+  list-style-image: url(../img/tick.png);
+  font-size: 1.2em;
+  color: #2A8FBE;
+  width: 100%; }
+
+h3 {
+  font-size: 1em; }
+
+.mainboth {
+  font-size: 1.2em;
+  color: #2A8FBE;
+  width: 100%; }
+
+#team {
+  display: flex;
+  color: black;
+  width: 100%; }
+
+#team tr td img {
+  width: 100%; }
+
+footer {
+  display: block;
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  height: 150px;
+  position: relative; }
+  footer ul {
+    margin-top: 0px;
+    text-align: left; }
+  footer img {
+    position: absolute;
+    right: 15px; }
+  footer p {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 40%; }
+
+@media screen and (max-width: 800px) {
+  header {
+    position: static; }
+
+  .hidemob {
+    display: none; }
+
+  #header_logos {
+    width: 93%;
+    justify-content: space-around; }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  #calcdisplay div {
+    width: 100%; }
+
+  #quoteResult {
+    font-size: 1.5em; }
+
+  #blurb {
+    width: 80%;
+    margin-left: 10%; }
+
+  #mainbot {
+    display: block; }
+
+  #mainbot div {
+    width: 60%;
+    margin-left: 15%; }
+
+  #team {
+    display: block;
+    color: black;
+    width: 50%;
+    margin-left: 25%; }
+
+  #team tr td img {
+    width: 100%; }
+
+  footer img {
+    width: 20%;
+    right: 40%; }
+  footer p {
+    left: 30%; } }
+
+/*# sourceMappingURL=style.css.map */
